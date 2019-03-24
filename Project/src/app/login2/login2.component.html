@@ -1,0 +1,19 @@
+<div id = "backpage" >
+    <img  id ="logo" src="../../assets/book.png" alt="logo">
+    <div id ="logBox">
+        <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+                <h1>Login</h1>
+                <label for="email">Email</label>
+                <br>
+                <input type="email" formControlName="email" placeholder="email">
+                <br>
+                <label for="password">Password</label>
+                <br>
+                <input type="password" formControlName="password" placeholder="">
+                <br>
+                <br>
+            <button type="submit" class="btn btn-success" id="loginbtn">Login</button>
+        </form>
+        <a  id="signupbtn" (click)="signUp()">SignUp</a>
+    </div> 
+  </div>

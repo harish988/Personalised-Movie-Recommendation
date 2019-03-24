@@ -1,0 +1,41 @@
+input{
+    background: transparent;
+    border: 0px;
+    border-bottom: 1px solid black;
+    display: block;
+    height: 30px;
+    font-size: 1.1em;
+    color: white;
+    font-family: cursive;
+}
+label{
+    color:black;
+    font-size: 1.1em;
+    font-family: cursive;
+}
+
+h1{
+    color:#afc0dd;
+    font-family:'Courier New', Courier, monospace;
+}
+button:hover{
+    cursor: pointer;
+}
+button{
+    border: 0px;
+    border: 1px solid silver;
+    border-radius: 20px;
+    font-family: cursive;
+    color: white;
+    background:#07a3b5;
+    display: block;
+    width: 130px;
+    height: 30px;
+    position: relative;
+    left: 10%;
+    padding: 1px;
+}
+#logBox{
+    position: relative;
+    left:10%;
+}
